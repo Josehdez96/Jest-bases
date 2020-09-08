@@ -7,11 +7,15 @@ describe('Comparadores comunes', () => {
     name: 'Jose',
     lastname: 'Hernandez',
   };
+  const user2 = {
+    name: 'Joseda',
+    lastname: 'Hernandez',
+  };
 
   test('Igualdad de elementos', () => {
     expect(user).toEqual(user2);
   });
   test('No son exactamente iguales', () => {
-    expect(user).not.toEqual(user2);
+    expect(user).not.toEqual(user3);
   });
 });
