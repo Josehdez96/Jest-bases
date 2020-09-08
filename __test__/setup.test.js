@@ -6,6 +6,6 @@ beforeAll(() => console.log('Antes de todas las pruebas'));
 
 describe('Preparar antes de ejecutar', () => {
   test('Es verdadero', () => {
-    expect(true.toBeTruthy());
+    expect(true).toBeTruthy();
   });
 });
