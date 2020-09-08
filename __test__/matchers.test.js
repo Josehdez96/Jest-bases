@@ -7,7 +7,7 @@ describe('Comparadores comunes', () => {
     name: 'Jose',
     lastname: 'Hernandez',
   };
-  const user2 = {
+  const user3 = {
     name: 'Joseda',
     lastname: 'Hernandez',
   };
