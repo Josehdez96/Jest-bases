@@ -17,5 +17,8 @@
     "babel-jest": "^26.3.0",
     "babel-polyfill": "^6.26.0",
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
