@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando los snapshots Siempre fallará el snapshot 1`] = `
+Object {
+  "createAt": 2020-09-08T22:23:00.852Z,
+  "id": 0,
+}
+`;
+
+exports[`Probando los snapshots Snapshot de James 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "name": "James Rodriguez",
+  "species": "Human",
+  "status": "Active",
+}
+`;
+
+exports[`Probando los snapshots Tenemos una excepcion 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "James Juan",
+}
+`;
