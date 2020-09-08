@@ -1,10 +1,7 @@
 import axios from 'axios';
 
 export const getDataFromApi = (url) => {
-  return axios
-    .get(url)
-    .then(({ data }) => {
-      return data;
-    })
-    .catch((err) => console.error(err));
+  return axios.get(url).then(({ data }) => {
+    return data;
+  });
 };
