@@ -9,4 +9,7 @@ describe('Comprobar cadenas de texto', () => {
   test('Comprobar el tamaño del texto', () => {
     expect(text).toHaveLength(14);
   });
+  test('Comprobar el tipo: String', () => {
+    expect(typeof text).toBe('string');
+  });
 });

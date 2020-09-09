@@ -16,4 +16,7 @@ describe('comparar numeros', () => {
   test('Numeros floats', () => {
     expect(numbers(0.2, 0.2)).toBeCloseTo(0.4);
   });
+  test('Comprobar tipado: Number', () => {
+    expect(typeof numbers(5, 1)).toBe('number');
+  });
 });

@@ -17,6 +17,13 @@ describe('Comprobar tamaño de un array', () => {
 
 describe('Comprobar que existe un color', () => {
   test('Que tenga azul', () => {
+    console.log(typeof arrayColors());
     expect(arrayColors()).toContain('azul');
+  });
+});
+
+describe('Comprobar tipado', () => {
+  test('Comprobar el tipo: Array', () => {
+    expect(Array.isArray(arrayColors())).toBeTruthy();
   });
 });
