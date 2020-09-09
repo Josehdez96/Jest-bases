@@ -2,8 +2,8 @@
 
 exports[`Probando los snapshots Siempre fallará el snapshot 1`] = `
 Object {
-  "createAt": 2020-09-08T22:23:00.852Z,
-  "id": 0,
+  "createAt": 2020-09-09T17:19:40.882Z,
+  "id": 4,
 }
 `;
 
